@@ -7,8 +7,8 @@
 / {
 	// This is used by the bootloader to find the correct DTB 
 	qcom,msm-id = <293 0x0>;
-	qcom,board-id= <0x0b 0>;
-
+	qcom,board-id= <8 0>;
+	
 	model = "Xiaomi Redmi S2 (ysl)";
 	compatible = "xiaomi,ysl", "qcom,msm8953", "lk2nd,device";
 
