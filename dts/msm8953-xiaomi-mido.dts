@@ -9,8 +9,8 @@
 	qcom,msm-id = <293 0x0>;
 	qcom,board-id= <0x0b 0>;
 
-	model = "Xiaomi Redmi Note 4X Snapdragon (mido)";
-	compatible = "xiaomi,mido", "qcom,msm8953", "lk2nd,device";
+	model = "Xiaomi Redmi S2 (ysl)";
+	compatible = "xiaomi,ysl", "qcom,msm8953", "lk2nd,device";
 
 	// Bootloader won't continue if it can't delete some nodes from below
 	soc {
@@ -30,7 +30,7 @@
 			linux,reserve-contiguous-region;
 			linux,reserve-region;
 			linux,remove-completely;
-			reg = <0x0 0x9ff00000 0x0 0x00100000>;
+			reg = <0x0 0x91400000  0x0 0x400000>;
 			label = "pstore_reserve_mem";
 		};
 	};
